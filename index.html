@@ -80,7 +80,7 @@
     </header>
 
     <section class="summary">
-      <p>Gravity organizes folders on your Mac and keeps a local history so you can undo a run. It has no account and no network permission. File contents are handled on your Mac and are not sent to us.</p>
+      <p>Gravity organizes folders on your Mac and keeps a local history so you can undo a run. It has no account. File contents are handled on your Mac and are not sent to us. The only network connection is the one Apple uses to complete the one-time purchase.</p>
     </section>
 
     <h2>This policy</h2>
@@ -93,7 +93,7 @@
 
     <h2>Names taken from a document</h2>
     <p>If a document’s name does not say what it is, such as “Scan_0012.pdf” or “Document (3).docx”, Gravity may read text from that file on your Mac and suggest a short title. This is limited to documents, not duplicates, and to PDF, plain text, Markdown, CSV, TeX, RTF, Word, and OpenDocument files. At most 150 documents are named this way in one run. Gravity reads up to the opening 2,000 characters. For a PDF it uses the text of the first three pages, or, if the PDF has no text layer, Apple’s on-device text recognition on the first page.</p>
-    <p>The first 1,000 characters of that excerpt are passed to the on-device language model built into macOS, and only when that model is available. The model is asked for a title of a few words. Gravity keeps the title as the new file name. It does not save the excerpt in History or in its settings. Gravity has no network permission, so it does not transmit the excerpt.</p>
+    <p>The first 1,000 characters of that excerpt are passed to the on-device language model built into macOS, and only when that model is available. The model is asked for a title of a few words. Gravity keeps the title as the new file name. It does not save the excerpt in History or in its settings, and it does not transmit the excerpt.</p>
 
     <h2>Duplicate files</h2>
     <p>Gravity computes a SHA-256 checksum of a file’s contents when another file in the same run has the same size. Packages and files that are not downloaded yet are not checksummed. The checksum is used only to decide which files match, during that run. It is not written into History.</p>
@@ -109,16 +109,16 @@
     <p>Settings stored on your Mac are: tidy in place or leave the folder untouched, where organized copies are saved, whether to preview before organizing, whether to color-code in Finder, whether to tidy Downloads automatically, whether to show a Dock icon, whether the Gravity window is hidden, whether it stays above other windows, whether the welcome screen has been completed, and the extra folder names you protect. Access you grant to Desktop, Documents, or a chosen output folder is stored as a security-scoped bookmark. Open at Login is registered with macOS as a login item.</p>
 
     <h2>Automatic tidying</h2>
-    <p>If you turn it on, Gravity watches the Downloads folder while the app is running. After Downloads has been quiet for about a minute and a half, it organizes that folder in place, without showing a preview first. Partial downloads, and files changed in the last minute, are left alone. The same run is recorded in History and can be undone. Turning the setting off stops the watch.</p>
+    <p>If you turn it on after unlocking Gravity, the app watches the Downloads folder while it is running. After Downloads has been quiet for about a minute and a half, it organizes that folder in place, without showing a preview first. Partial downloads, and files changed in the last minute, are left alone. The same run is recorded in History and can be undone. Turning the setting off stops the watch. Until the one-time purchase is made, the setting is remembered and nothing is organized automatically.</p>
 
     <h2>Permissions</h2>
     <p>Gravity runs in the Mac App Sandbox. It may read and write Downloads. Other folders are available only after you select them or drop them on the app. The shortcut Control-Option-G shows or hides Gravity. It does not record what you type.</p>
 
     <h2>What Gravity does not do</h2>
-    <p>Gravity does not create an account and does not include analytics, advertising, or a third-party crash reporter. It is not permitted to open network connections. It does not use the Photos library, Contacts, or Calendar. It does not read photo or video location data. It does not send your files, file names, document text, checksums, or history to Babak Jahangirzadeh or to anyone else.</p>
+    <p>Gravity does not create an account and does not include analytics, advertising, or a third-party crash reporter. The only network connection it opens is the one StoreKit uses so Apple can complete or restore the one-time purchase. It does not use the Photos library, Contacts, or Calendar. It does not read photo or video location data. It does not send your files, file names, document text, checksums, or history to Babak Jahangirzadeh or to anyone else.</p>
 
     <h2>The App Store purchase</h2>
-    <p>Gravity is a one-time purchase on the Mac App Store. Apple handles the payment. The app itself does not receive your payment card number or Apple ID.</p>
+    <p>Gravity is free to download. Previewing a folder is free and does not change that folder. Organizing a folder, Clean Up, and automatic tidying require a one-time in-app purchase called Unlock Organizing. Apple handles the payment. The app checks with StoreKit whether that purchase is active on this Mac. It does not receive your payment card number or Apple ID, and it does not send a receipt to Babak Jahangirzadeh.</p>
 
     <h2>Children</h2>
     <p>Gravity is a file utility for people organizing their own folders. It is not directed at children, and it has no account through which it could collect information about a child.</p>
