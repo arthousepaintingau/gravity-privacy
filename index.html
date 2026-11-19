@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Gravity – File Organizer</title>
+  <meta name="description" content="Privacy policy for Gravity – File Organizer, a Mac app by Appnextra. Gravity processes files on your Mac and does not collect personal data.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1c1c1e;
+      --muted: #4a4a4f;
+      --line: #e4e4e7;
+      --bg: #fafafa;
+      --card: #ffffff;
+      --accent: #5b2a86;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #f4f4f5;
+        --muted: #b0b0b6;
+        --line: #2c2c31;
+        --bg: #111113;
+        --card: #1a1a1e;
+        --accent: #d2b4f0;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 3.5rem 1.5rem 5rem;
+    }
+    header { margin-bottom: 2.5rem; }
+    p.kicker {
+      margin: 0 0 0.4rem;
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 650;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0 0 0.6rem; font-size: 2.1rem; line-height: 1.15; letter-spacing: -0.02em; }
+    .updated { margin: 0; color: var(--muted); }
+    h2 { margin: 2.4rem 0 0.6rem; font-size: 1.25rem; letter-spacing: -0.01em; }
+    p, li { color: var(--text); }
+    p { margin: 0.7rem 0; }
+    ul { margin: 0.6rem 0 0.6rem; padding-left: 1.2rem; }
+    li { margin: 0.35rem 0; }
+    a { color: var(--accent); }
+    .summary {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 1.1rem 1.25rem;
+      margin: 1.6rem 0 0.4rem;
+    }
+    .summary p { margin: 0; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="kicker">Appnextra</p>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Gravity – File Organizer · Effective 19 November 2026</p>
+    </header>
+
+    <section class="summary">
+      <p>Gravity organizes folders on your Mac. It does not create an account, it does not include advertising or analytics, and it cannot connect to the internet. Your files and the history of what Gravity did with them stay on your Mac. Appnextra does not receive them.</p>
+    </section>
+
+    <h2>Who this covers</h2>
+    <p>This policy describes the Mac app Gravity – File Organizer, published by Babak Jahangirzadeh under the name Appnextra. It applies to the app distributed on the Mac App Store. It does not describe other software that may appear on appnextra.com.</p>
+
+    <h2>The short version</h2>
+    <p>Gravity is a utility that runs entirely on your computer. There is no sign-in, no Appnextra account, and no server operated for this app. The app is sandboxed and is not given permission to make network requests. Nothing you organize is uploaded to us, sold, or shared with a third party.</p>
+
+    <h2>Folders you ask Gravity to organize</h2>
+    <p>Gravity reads a folder only when you drop it onto the app, choose Downloads, Desktop, or Documents, or turn on automatic tidying for Downloads. On your Mac it uses file and folder names, sizes, extensions, and dates so it can sort what is there.</p>
+    <p>For photos and videos, Gravity reads the capture date stored in the file, when the file has one, so items can be ordered by when they were taken. It does not read location information from photos or videos.</p>
+    <p>With the default setting, Gravity places an organized copy in a folder named Organized and keeps what was already there in a folder named Original Files. If you choose Leave Folder Untouched, the original folder is not rearranged and the organized copy is saved where you tell Gravity to put it. Clean Up moves clutter and duplicates to the Trash. Gravity does not permanently delete files. Emptying the Trash is a separate step you take in Finder, and a run can be undone from History.</p>
+    <p>Downloads can be read and written because the app is allowed to use that folder. Desktop, Documents, and any other folder are opened only after you grant access in the system open panel. macOS then gives Gravity a bookmark so it can open that same folder again. Those bookmarks stay on your Mac.</p>
+    <p>If you turn on automatic tidying, Gravity watches the Downloads folder and organizes new files after they have finished arriving. You can turn that off in the app at any time.</p>
+
+    <h2>Names suggested from a document</h2>
+    <p>When a document has a generic name, such as “Scan_0012.pdf” or “Document (3).docx”, Gravity may read the opening text of that file on your Mac in order to suggest a short descriptive name. This applies to PDF, text, Markdown, CSV, TeX, RTF, Word, and OpenDocument files. A scanned PDF that has no text layer is read with Apple’s on-device text recognition, from the first page.</p>
+    <p>A short excerpt of that text is given to the on-device language model that is part of macOS (Apple’s Foundation Models framework) so the model can reply with a title of a few words. This runs only when Apple Intelligence is available on your Mac, only for documents whose names do not already describe them, and only for a limited number of documents in one run. Gravity does not keep a copy of the document text after the name has been chosen. The text is not sent to Appnextra.</p>
+    <p>The model is provided by Apple as part of the operating system and runs on the Mac. Apple’s own privacy policy describes how Apple handles features of macOS. Gravity itself has no network access and does not transmit the excerpt.</p>
+
+    <h2>Duplicate detection</h2>
+    <p>To find files that are identical, Gravity calculates a checksum of their contents on your Mac during that organize run. The checksum is used only to decide which files match. It is not written into History and it is not sent off the Mac.</p>
+
+    <h2>What Gravity stores on your Mac</h2>
+    <p>Gravity keeps a local history so a run can be reviewed and undone later, including after you quit. The history file is in the app’s Application Support folder on your Mac. For each run it stores the date, the folder’s name and path, whether the run was automatic, how many files were organized, a count for each category, and the file paths needed to put things back. It does not store the contents of your files. At most 100 runs are kept. You can erase this history with Clear History in the app.</p>
+    <p>Your settings are also stored on your Mac. They include whether Gravity previews a run before changing anything, color-codes files in Finder, tidies Downloads automatically, shows an icon in the Dock, opens at login, and which extra folder names should be left untouched.</p>
+
+    <h2>What we do not collect</h2>
+    <p>Appnextra does not collect personal information through Gravity. In particular, the app does not collect:</p>
+    <ul>
+      <li>your name, email address, phone number, contacts, or Apple ID</li>
+      <li>the contents, names, or locations of your files</li>
+      <li>precise or coarse location</li>
+      <li>photos, as a library uploaded anywhere</li>
+      <li>browsing history, search history, or identifiers used for tracking</li>
+      <li>payment card or bank details</li>
+    </ul>
+    <p>Gravity does not include third-party analytics, advertising, or crash-reporting software. It does not track you across apps or websites. We do not sell personal information, and we do not share it with data brokers, because the app does not send it to us.</p>
+
+    <h2>Purchases</h2>
+    <p>Gravity is sold as a one-time purchase on the Mac App Store. Apple processes the payment. Gravity does not receive your payment card number, billing address, or Apple ID. How Apple handles App Store purchases is described in Apple’s privacy policy.</p>
+
+    <h2>Children</h2>
+    <p>Gravity is a general file utility. It is not directed at children under 13, and it does not knowingly collect personal information from anyone.</p>
+
+    <h2>Your choices</h2>
+    <p>You decide which folders Gravity organizes. You can leave automatic tidying off, preview a run before anything changes, undo a run, and clear History. Removing Gravity and deleting its folder in Application Support removes the history stored on that Mac. Access you granted to a folder can be reconsidered the next time macOS asks, and you can stop using the app at any time.</p>
+    <p>Because Gravity does not send personal information to Appnextra, there is no profile on our servers to access, correct, export, or delete. Questions about this policy are welcome at the address below.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the new version will be posted on this page and the effective date above will be updated. When a change matters to how the app handles information, it will also be noted in the app’s release notes on the Mac App Store.</p>
+
+    <h2>Contact</h2>
+    <p>Babak Jahangirzadeh<br>Appnextra<br>
+      <a href="mailto:support.appnextra@gmail.com">support.appnextra@gmail.com</a><br>
+      <a href="https://www.appnextra.com">appnextra.com</a>
+    </p>
+
+    <footer>
+      <p>Gravity – File Organizer for Mac. This policy is the privacy policy for that app.</p>
+    </footer>
+  </main>
+</body>
+</html>
